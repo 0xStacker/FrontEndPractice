@@ -1,0 +1,192 @@
+.nft-details{
+    display: inline-block;
+    margin-left: 110px;
+    margin-top: 25px;
+}
+
+.mint-tab{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+    margin-left: 250px;
+    border-right: 1px;
+    border-left: 1px;
+    border-bottom: 1.5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+.nft{
+    height: 210px;
+    width: 210px;
+    border-radius: 10px;
+}
+
+.collection-name, .creator-wallet, .receipient{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.name{
+    font-family: Roboto, system-ui;
+    font-size: 30px;
+    font-weight: 400;
+    vertical-align: top;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.creator-wallet, .receipient{
+    background-color: rgb(191, 219, 254);
+    margin-top: 0px;
+    border-radius: 20px;
+    height: 25px;
+}
+
+.wallet, .receipient-name{
+    font-family: Roboto, system-ui;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 520;
+    color: rgb(29, 78, 216);
+    vertical-align: top;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.creator-image{
+    display: inline-block;
+    margin-left: 3px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.chain-name-data, .chain, .chain-name{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.chain_, .chain-name{
+    font-family: Roboto, system-ui;
+    font-size: 15px;
+}
+
+.chain_{
+    margin-top: 0px;
+    margin-bottom: 5px;;
+}
+
+.chain-icon{
+    width: 18px;
+    margin-left: 5px;
+}
+
+.creator, .creator-icon, .creator-name, .receipient-logo, .receipient-name{
+    display: inline-block;
+    vertical-align: top;
+}
+
+._name{
+    font-size: 15px;
+    font-family: Roboto, system-ui;
+    font-weight: 520;
+    margin-top: 0px;
+}
+
+.creator-logo, .receipient-logo{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+
+.creator-name{
+    font-family: Roboto, system-ui;
+    font-size: 15px;
+    font-weight: 520;
+    margin-top: 0px;
+}
+
+.collection-details{
+    font-family: Roboto, system-ui;
+    color: rgb(30, 41, 59);
+    font-weight: 50;
+    font-size: 15px;
+    width: 350px;
+    line-height: 1.5;
+}
+
+.amount-minted{
+    display: inline-block;
+    vertical-align: top;
+    font-family: Roboto, system-ui;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 200px;
+    margin-top: 0px;
+}
+
+.price{
+    display: inline-block;
+    vertical-align: top;
+    font-family: Roboto, system-ui;
+    font-size: 17px;
+    font-weight: 520;
+    margin-top: 0px;
+}
+
+.receipient{
+    margin-right: 150px;
+}
+
+.sale-status{
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: #DCFCE7;
+    background: #DCFCE7;
+    color: rgb(22, 101, 52);
+    margin-top: 0px;
+}
+
+.instruction, .mint-to, .to-address{
+    display: inline-block;
+    font-family: Roboto, system-ui;
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.instruction{
+    margin-right: 150px;
+}
+
+.mint-amount{
+    display: block;
+}
+
+.amount-input{
+    display: block;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 213, 219);
+    padding-left: 10px;
+    margin-left: 10px;
+    font-family: Roboto, system-ui;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.mint-button{
+    display: block;
+    border-radius: 2px;
+    border: none;
+    width: 94%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(79, 70, 229);
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px
+}
