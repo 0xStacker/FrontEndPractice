@@ -1,0 +1,169 @@
+
+.nav-bar-logo{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navs{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0px;
+}
+
+.logo{
+    height: 25px;
+    vertical-align: top;
+}
+
+.p{
+    font-family: Roboto, system-ui;
+}
+
+.logo-name{
+    font-family: Roboto, system-ui;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 520;
+    margin-top: 0px;
+    vertical-align: top;
+    margin-bottom: 0px;
+}
+
+.swap, .txns, .connect-wallet, .more{
+    border: none;
+    font-size: 15px;
+    font-family: Roboto, system-ui;
+    font-weight: 600;
+    margin-right: 20px;
+    color: rgb(104, 112, 118);
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+.swap{
+    margin-left: 20px
+}
+
+
+.connect-wallet{
+    font-size: 15px;
+    margin-left: 500px;
+    color: #FF37C7;
+    border-radius: 7px;
+    height: 30px;
+    background-color: #FF37CF1F;
+}
+
+.connect-wallet:hover, .swap:hover, .txns:hover, .more:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.from-tab, .to-tab{
+    width: 400px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.details{
+    margin-bottom: 30px;
+}
+
+.action{
+    font-family: Roboto, system-ui;
+    font-weight: 350;
+    font-size: 15px;
+    background-color: transparent;
+    display: inline-block;
+    color: rgb(111, 111, 111);
+    margin-top: 5%;
+    margin-bottom: 0px;
+    margin-right: 67%;
+    margin-left: 10px;
+}
+
+.wallet{
+    font-family: Roboto, system-ui;
+    font-weight: 350;
+    display: inline-block;
+    color:#FF37C7;
+    border: none;
+    background-color: transparent;
+    margin-top: 5%;
+    margin-bottom: 0px;
+}
+
+.token-details{
+    width: 100%;
+    height: 30%;
+    margin-top: 0px;
+    padding-bottom: 30px;
+}
+
+.token-amount{
+    font-family: Roboto, system-ui;
+    font-weight: 520;
+    font-size: 40px;
+    display: inline-block;
+    border: none;
+    color: black;
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 0px;
+}
+
+.token-amount:focus{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.change-token{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+}
+
+.change-token:hover, .wallet{
+    cursor: pointer;
+}
+
+.token{
+    font-family: Roboto, system-ui;
+    font-weight: 520;
+    font-size: 20px;
+    display: inline-block;
+    background-color:rgb(248, 248, 248);
+    width: 30%;
+    height: 100%;
+    border-radius: 20px;
+    margin-top: 0px;
+}
+
+.token-name-details{
+    display: inline-block
+
+}
+
+.ticker, .chain-name{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.chain-name{
+    font-size: 10px;
+}
+
+.token-logo{
+    display: inline-block;
+    width: 30px;
+}
+
+.to-tab{
+    margin-top: 1%;
+}
