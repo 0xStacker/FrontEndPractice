@@ -1,0 +1,169 @@
+.nav-bar{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.logo{
+    width: 150px;
+    display: inline-block;
+}
+
+.connect-wallet{
+    margin-left: 70%;
+    margin-right: 0px;
+    color: white;
+    border-radius: 19px;
+    background-color: rgb(49, 0, 122);
+    border: none;
+    width: 10%;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 700;
+    vertical-align: top;
+}
+
+.settings{
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    margin-left: 65%;
+    transition: all 0.3s ease-in-out;
+}
+
+.connect-wallet:hover, .settings:hover, .menu.settings:hover{
+    cursor: pointer;
+}
+
+.settings-icon{
+    width: 25px;
+}
+
+.exchange-text{
+    display: inline-block;
+    font-family: Roboto, system-ui;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.exchange-tab{
+    margin-top: 2%;
+    margin-left: 30%;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+.menu-icon{
+    width: 30px;
+}
+
+.menu{
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    margin-left: 20px;
+    padding-top: 3px;
+    vertical-align: top;
+}
+
+.token-image{
+    height: 45px;
+    display: inline-block;
+}
+
+.from-token-tab, .to-token-tab{
+    display: inline-block;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.07);
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.swap-tab{
+    margin-left: 15px;
+}
+
+.transfer{
+    border: none;
+    display: inline-block;
+    border-radius: 43%;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: transparent;
+    vertical-align: top;
+    margin-top: 10%;
+}
+
+.transfer-arrow{
+    width: 20px;
+}
+
+.from-text, .to-text{
+    font-family: Roboto, system-ui;
+    font-weight: 500;
+}
+
+.token-details{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.token-name{
+    font-family: Roboto, system-ui;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.chain{
+    font-family: Roboto, system-ui;
+    color: rgb(116, 116, 116);
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+.send-tab{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 87%;
+}
+
+.send-text{
+    font-family: Roboto, system-ui;
+}
+
+.amount{
+    font-family: Roboto, system-ui;
+    font-size: 30px;
+    border: none;
+    width: 80%;
+    vertical-align: top;
+}
+
+.amount:focus{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.bridge{
+    border: none;
+    background-color: rgb(49, 0, 122);
+    font-family: Roboto, system-ui;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 15px;
+    width: 92%;
+    color: white;
+    border-radius: 25px;
+    margin-top: 10px;
+    height: 50px;
+    margin-bottom: 20px;
+}
