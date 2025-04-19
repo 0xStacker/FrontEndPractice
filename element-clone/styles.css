@@ -1,0 +1,83 @@
+.head-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-image{
+    height: 65px;
+}
+
+.search-bar{
+    flex: 1;
+    height: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.search-bar:hover{
+    border-color: rgb(2, 188, 98);
+}
+
+.search-bar:focus{
+    border-color: rgb(2, 188, 98);
+    outline: none;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-section{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.text-navs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-nav-item{
+    font-family: "Arial", sans-serif;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+}
+
+.tools-navs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tools-nav-item{
+    font-family: "Arial", sans-serif;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+}
+
+.connect{
+    font-family: "Arial", sans-serif;
+    font-weight: 600;
+    border: none;
+    background-color: rgb(2, 188, 98);
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+}   
+
+.icon{
+    height: 20px;
+}
