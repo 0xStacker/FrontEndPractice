@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SWORP</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="head-section">
+            <img class="logo" src="./assets/sworp-logo.png">
+            <button class="connect-wallet">Connect Wallet</button>
+        </div>
+
+        <div class="side-bar">
+            <button class="side-bar-item" id="new-order">
+                    <img class="side-bar-icon" src="./assets/new-order-active.png">
+                    New Order
+            </button>
+
+            <button class="side-bar-item" id="received">
+                <img class="side-bar-icon" src="./assets/received-order.png">
+                Received
+            </button>
+
+            <button class="side-bar-item" id="sent">
+                <img class="side-bar-icon" src="./assets/sent-order.png">
+                Sent
+            </button>
+
+            <button class="side-bar-item" id="status">
+                <img class="side-bar-icon" src="./assets/order-status.png">
+                Status
+            </button>
+        </div>
+        </div>
+        <div class="request-info-tab">
+            <input class="entry" type="text" placeholder="Enter the address of order recipient">
+            <div class="token-details">
+                <input class="entry" id="ca" type="text" placeholder="Contract Address">
+                <input class="entry" id="token-id" type="text" placeholder="ID">
+                <button class="add-token">
+                    <img class="add-token-icon" src="./assets/add-token.png">
+                </button>
+            </div>
+            <button class="next">
+                Next
+            </button>
+        </div>
+    </body>
+
+</html>
