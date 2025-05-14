@@ -28,10 +28,10 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    width: 80px;
+    width: 8%;
     margin-top: 10px;
-    /* background-color: #f7f7fb; */
-    height: 100vh;
+    background-color: #f7f7fb;
+    height: 100%;
     padding-top: 20px;
     margin-left: 0px;
 }
@@ -42,7 +42,6 @@
     align-items: center;
     justify-content: center;
     border: none;
-    width: 80px;
     background-color: transparent;
     padding: 5px;
     transition: background-color 0.1s ease;
@@ -74,61 +73,171 @@
     color: #7d69b2;
 }
 
-.request-info-tab{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 400px;
-    margin-left: 30%;
-    margin-top: -45%;
-    padding: 10px 10px;
-    border-radius: 8px;
-    height: 250px;
-}
-
-.entry{
-    border: 1.3px solid #7d69b2;
-    border-radius: 8px;
-    height: 40px;
-}
-
-.token-details{
+.content-section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    height: 80vh;
+    margin-left: -10px;
 }
 
-
-#token-id{
-    width: 25px;
-}
-
-#ca{
+.sender-nft-tab{
+    display: flex;
+    flex-direction: column;
     flex: 0.95;
 }
 
-.add-token{
+.user-profile{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-profile-icon{
+    width: 50px;
+}
+
+.copy-icon{
+    height: 15px;
+    margin-left: 5px;
+}
+
+.address-container{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin-left: 10px;
+}
+
+.address{
+    font-size: 12px;
+    margin-top: 0px;
+    text-decoration: none;
+    color: rgb(36, 35, 35);
+    font-family: Roboto, sans-serif;
+}
+
+.user-name{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(36, 35, 35);
+    font-family: Roboto, sans-serif;
+}
+
+.address:hover, .user-name:hover, .copy-icon:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+p{
+    font-family: Roboto, sans-serif;
+    margin-bottom: 0px;
+}
+
+.nft-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 90%;
+    height: 60%;
+    overflow-x: auto;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+}
+
+.nft-grid:hover{
+    scrollbar-width: thin;
+}
+
+.nft-card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add{
     border: none;
     background-color: transparent;
 }
 
-.add-token-icon{
-    width: 20px;
+.add:hover{
+    cursor: pointer;
+}
+
+.add-image{
+    width: 15px;
+    transition: width 0.2s ease;
+}
+
+.add-image:hover{
+    width: 25px;
+}
+
+.nft-image{
+    height: 100%;
+    border-radius: 8px;
 }
 
 .next{
     background-color: #7d69b2;
     color: white;
-    border-radius: 8px;
+    border-radius: 10px;
     font-family: Roboto, system-ui;
     padding: 8px 8px;
     font-family: Roboto, system-ui;
     padding: 10px 10px;
     border: none;
+    align-self: center;
+    width: 150px;
 }
 
+.search-panel{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.search{
+    border-radius: 8px;
+    font-family: Roboto, sans-serif;
+    border-width: 1px;
+    width: 100%;
+    height: 30px;
+    border-color: #7d69b2;
+    color: #AEAEAE;
+}
+
+.info{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(36, 35, 35);
+}
+
+.search:focus{
+    outline: none;
+    color: rgb(36, 35, 35);
+}
+
+.search-icon{
+    height: 17px;
+    margin-left: 50px;
+}
 
 
 
