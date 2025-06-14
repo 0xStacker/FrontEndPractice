@@ -1,0 +1,223 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Roboto Mono, sans serif;
+    color: rgb(237, 230, 230);
+}
+
+.offer-tab-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.search-bar{
+    border-radius: 7px;
+    background-color: transparent;
+    height: 30px;
+    border: solid 1px #383535;
+    flex: 0.4;
+    color: white;
+    font-family: Roboto Mono, sans-serif;
+    padding-left: 10px;
+    font-size: 15px;
+    transition: border 0.2s ease-in-out;
+    padding-right: 10px;
+}
+
+.search-bar:focus{
+    outline: none;
+    border: solid 1px #ff2d95;
+}
+
+
+button{
+    background-color: #ff2d95;
+    color: white;
+    border: none;
+    font-family: Roboto Mono, sans-serif;
+    
+}
+
+.logo{
+    width: 100px;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+}
+
+#market{
+    color: #ff2d95
+}
+
+.nav-link{
+    font-size: 15px;
+    transition: color 0.2s ease-in-out;
+}
+
+
+.orders{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+
+button:hover{
+    cursor: pointer;
+}
+
+body{
+    background: rgb(20, 20, 20)
+}
+
+.nav-link:hover{
+    color: #ff2d95;
+    cursor: pointer;
+}
+
+
+.launch-app{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+}
+
+.order-container{
+    display: flex;
+    flex-direction: column;
+    max-width: calc((100% - 30)/3);
+    border: solid 1.5px transparent;
+    background-color: #363033;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px;
+    transition: border 0.2s ease-in-out;
+}
+
+.order-container:hover{
+    border: solid 1.5px #ff2d95;
+    cursor: pointer;
+}
+
+.order-details{
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 2px #383535;
+}
+
+.order-type{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+
+.maker-details{
+    display: flex;
+    align-items: center;
+}
+
+.maker-address{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    font-family: Roboto Mono, sans-serif;
+}
+
+.offering-assets{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.general{
+    background-color:#2d9cdb;
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: center;
+    padding: 2px;
+}
+
+.asset-details-container{
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px #383535; 
+}
+
+.source-chain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.chain{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.chain-name{
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+    font-family: Roboto Mono, sans-serif;
+}
+
+.chain-icon{
+    width: 20px;
+}
+.type{
+    font-weight: bold;
+}
+
+.offering-nft, .requesting-nft{
+    border-radius: 5px;
+    width: 30px;
+    margin-right: 3px;
+}
+
+.requesting-token{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    border: 0.8px solid #555454;
+    border-radius: 5px;
+}
+
+.requesting, .offering{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.amount{
+    font-size: 15px;
+}
+
+.token{
+    width: 20px;
+}
+
+.requesting-assets{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
